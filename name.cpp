@@ -13,18 +13,18 @@ class body
     void input()
     {
        cout<<"\nEnter name: ";
-       cin>>haircolour;
+       cin>>name;
        cout<<"Enter hair colour: ";
        cin>>haircolour;
        cout<<"Enter height: ";
        cin>>height;
-       cout<<"Enter colour: ";
+       cout<<"Enter skin colour: ";
        cin>>colour;
     }
     
     void output()
     {
-       cout<<"\nBhai tu chutiya hai"<<endl;
+       cout<<name<<" chutiya hai"<<endl;
        cout<<"Hair colour: "<<haircolour<<endl;
        cout<<"Height: "<<height<<endl;
        cout<<"Colour: "<<colour<<endl;
